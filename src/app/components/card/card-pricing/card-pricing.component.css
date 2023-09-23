@@ -1,0 +1,36 @@
+.card-pricing {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(0,0,0,0.7);
+  color: antiquewhite;
+  font-family: Calibri;
+  width: 100%;
+  height: 4.375rem;
+  bottom: 0px;
+  left: 0px;
+  padding: 0.625rem;
+}
+
+.pricing-title {
+  margin-bottom: 0.188rem;
+}
+
+.pricing-value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-value > .value-console {
+  display: flex;
+}
+
+.value-console > span {
+  font-weight: bolder;
+  color: aqua;
+  margin-right: 0.625rem;
+}
+
+.value-console > p {
+  margin-top: 0.1rem;
+}
